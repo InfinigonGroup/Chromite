@@ -15,22 +15,18 @@ Chromite goes one set further and weds the advantages with those of the packing 
 
 # The Chromite Standards
 
-Chromite is baed on the Bancor protocol and is implemented using multiple contracts. The main ones are SmartToken and BancorChanger.
+Chromite is based on the Bancor protocol and is implemented using multiple contracts. The main ones are SmartToken and BancorChanger.
 BancorChanger implements the token changer standard (See https://github.com/ethereum/EIPs/issues/228) and is responsible for converting between a token and its reserves.
 SmartToken represents a changer aware ERC-20 compliant token.
 
 # The Smart Token Standard
 
-## Motivation
-
-Those will allow creating a Bancor compliant token while keeping dependencies at a minimum.
-In addition, it allows an owning contract to extend its functionality by giving the owner full control.
 
 ## Specification
 
 ### SmartToken
 
-First and foremost, a Smart Token is also an ERC-20 compliant token.
+The Chromite Smart Token is also an ERC-20 compliant token.
 As such, it implements both the standard token methods and the standard token events.
 
 ### Methods
@@ -90,19 +86,12 @@ Triggered when the total supply is decreased.
 
 # The Bancor Changer Standard
 
-The following section describes standard functions a bancor changer can implement.
-
-## Motivation
-
-Those will allow dapps and wallets to buy and sell the token.
-
-The most important here is `change`.
 
 ## Specification
 
-### BancorToken
+### ChromiteToken
 
-First and foremost, a Bancor Changer is also an EIP-228 compliant changer.
+The Bancor based Chromite Changer is also an EIP-228 compliant changer.
 As such, it implements both the standard changer methods and the standard changer events.
 
 ### Methods
