@@ -1,6 +1,6 @@
-﻿# Bancor Protocol Contracts v0.6 (alpha)
+﻿# Chromite
 
-Bancor is a **smart-contract-based token conversion protocol**, which enables a single party to convert any 
+Chromite is an indpendant coin offering that is backed by physical chromium deposits and is based on  the  **Bancor smart-contract-based token conversion protocol**, which enables a single party to convert any 
 token to another, without requiring a second party to exchange with. It achieves this through the use of 
 reserve-tokens, which provide liquidity through autonomous algorithmic price discovery, regardless of trade volume.
 
@@ -9,13 +9,13 @@ The Bancor protocol represents the first technological solution for the classic 
 
 Through the use of smart-contracts, Smart Tokens can be created that hold one or more other tokens in their reserve. Tokens may represent existing national currencies or other types of assets. By using a reserve token model and algorithmically-calculated conversion rates, the Bancor Protocol creates a new type of ecosystem for asset exchange, with no central control. This decentralized hierarchical monetary system lays the foundation for an autonomous decentralized global exchange with numerous and substantial advantages.
 
-## Warning
+Chromite goes one set further and weds the advantages with those of the packing of a physical commodity.
 
-Bancor is a work in progress. Make sure you understand the risks before using it.
 
-# The Bancor Standards
 
-Bancor protocol is implemented using multiple contracts. The main ones are SmartToken and BancorChanger.
+# The Chromite Standards
+
+Chromite is baed on the Bancor protocol and is implemented using multiple contracts. The main ones are SmartToken and BancorChanger.
 BancorChanger implements the token changer standard (See https://github.com/ethereum/EIPs/issues/228) and is responsible for converting between a token and its reserves.
 SmartToken represents a changer aware ERC-20 compliant token.
 
