@@ -161,14 +161,9 @@ To run the test, execute the following commands from the project's root folder -
 * npm start testrpc
 * npm test
 
-## Collaborators
 
-* **[Yudi Levi](https://github.com/yudilevi)**
-* **[Ilana Pinhas](https://github.com/ilanapi)**
-* **[Barak Manos](https://github.com/barakman)**
-* **[Martin Holst Swende](https://github.com/holiman)**
 
 
 ## License
 
-Bancor Protocol is open source and distributed under the Apache License v2.0
+Chromite Smart contract code is open source and distributed under the Apache License v2.0
